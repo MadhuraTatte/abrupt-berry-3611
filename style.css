@@ -1,0 +1,248 @@
+#container{
+    height:100%;
+    display:block;
+    
+}
+#header{
+    height:108px;
+    display:block;
+}
+#black-top{
+    height:42px;
+    display:flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+}
+#white-top{
+    height:66px;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    
+}
+#box-1{
+    width: 500px;
+    
+    margin-left:10px;
+    height:35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#box-2{
+    width:350px;
+    
+    height:35px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:10px;
+}
+#freeShipping{
+    width:150px;
+    height:100%;
+    
+    display:block;
+}
+#collect{
+    width:150px;
+    height:100%;
+    
+}
+#return{
+    width:150px;
+    height:100%;
+    
+}
+.show{
+    width:150px;
+    height:100%;
+    display:flex;
+    
+}
+.show>div:nth-child(1){
+    width:30px;
+    height:20px;
+    margin: 8px 8px 8px 8px;
+    
+}
+.show1-text{
+    color:white;
+    margin-top:10px;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 400;
+    cursor: pointer;
+    font-size: smaller;
+}
+#box-2>div:nth-child(1){
+    color:white;
+    font-size: small;
+    width:110px;
+    height:10px;
+    
+}
+#box-2>div:nth-child(2){
+    width: 1px;
+    height:18px;
+    background-color: grey;
+
+}
+#box-2>div:nth-child(3){
+    color:white;
+    font-size: small;
+    width:80px;
+    height:10px;
+    
+}
+#box-2>:nth-child(4){
+    width: 1px;
+    height:18px;
+    background-color: grey;
+}
+#box-2>:nth-child(5){
+    color:white;
+    font-size: small;
+    width:30px;
+    height:10px;
+    
+}
+#white-top>div{
+    
+    width:99% ;
+    height:100%;
+    margin:auto;
+    display: flex;
+
+}
+#white-top>div>div:nth-child(1){
+   width:135px;
+   height:80%;
+
+   margin:5px;
+}
+#white-top>div>div:nth-child(2){
+    width:400px;
+    height:60%;
+    
+    margin:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#white-top>div>div:nth-child(3){
+    width:400px;
+    height:70%;
+    
+    margin:10px;
+    background-color: #E0E0E0;
+    display: flex;
+}
+#white-top>div>div:nth-child(4){
+    width:185px;
+    height:60%;
+    margin:10px;
+    display: flex;
+    margin-left:55px;
+    align-items: center;
+}
+#white-top>div>div:nth-child(5){
+    width:120px;
+    
+    height:60%;
+    margin:10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+#white-top>div>div:nth-child(2)>div{
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: smaller;
+    font-weight:600;
+    
+}
+#white-top>div>div:nth-child(3)>div{
+    margin-top:15px;
+    margin-left:10px;
+}
+#search{
+    background-color: #E0E0E0;
+    border:0px;
+    outline:0;
+    font-size:smaller;
+}
+#white-top>div>div:nth-child(4)>div:nth-child(1){
+     width:40px;
+    
+     height:20px;
+     font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: smaller;
+    font-weight:600;
+    margin-right:10px;
+    margin-top:7px;
+
+}
+#white-top>div>div:nth-child(4)>div:nth-child(2){
+    width:1px;
+    height:25px;
+    background-color: grey;
+    margin-right:10px;
+    
+}
+#white-top>div>div:nth-child(4)>div:nth-child(3){
+    width:110px;
+    height:20px;
+
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: smaller;
+    font-weight:600;
+    margin-top:7px;
+}
+#white-top>div>div:nth-child(5)>div:nth-child(1){
+    width:30px;
+    height:20px;
+    margin-left:30px;
+}
+#white-top>div>div:nth-child(5)>div:nth-child(2){
+    width:30px;
+    height:20px;
+    margin:20px;
+}
+#strip{
+    width:100%;
+    height:50px;
+
+    margin-top:5px;
+    background: repeating-linear-gradient(110deg,#faa619,#faa619 10px,#F89F17 10px,#F89F17 20px);
+    
+    padding-bottom: 15px;
+    display:flex;
+    color:white;
+    
+}
+#strip>h2{
+    margin-left:400px;
+
+}
+#strip>div{
+    height:16px;
+    
+    margin-top:25px;
+    margin-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
