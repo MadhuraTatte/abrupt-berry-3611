@@ -222,7 +222,7 @@
     
 }
 #strip>h2{
-    margin-left:400px;
+    margin-left:500px;
 
 }
 #strip>div{
@@ -301,3 +301,56 @@
 #trending>img{
     width:280px;
 }
+#watches{
+    width:100%;
+    height: 200px;
+    margin-top: 20px;
+}
+#transparent{
+    width:100%;
+    height:250px;
+    background-color: transparent;
+}
+#big-box{
+    width:100%;
+    height:500px;
+    border:1px solid red;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-between;
+
+}
+#big-box>div:nth-child(1){
+    width:15%;
+    height:100%;
+    border:1px solid blue;
+    display:block;
+    background-color:#ECEFF1;
+
+    
+}
+#big-box>div:nth-child(2){
+    width:84%;
+    height:100%;
+    border:1px solid blue;
+}
+#big-box>div:nth-child(1)>div{
+    width:100%;
+    height:20px;
+    border:1px solid red;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#buttons{
+    border:1px solid black;
+    width:100%;
+    height:70px;
+    margin-top:10px;
+}
+
+
+
+
+
