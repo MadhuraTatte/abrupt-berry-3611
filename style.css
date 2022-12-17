@@ -121,6 +121,10 @@
 
    margin:5px;
 }
+#white-top>div>div:nth-child(1)>img{
+   width:135px;
+   height:100%;
+}
 #white-top>div>div:nth-child(2){
     width:400px;
     height:60%;
