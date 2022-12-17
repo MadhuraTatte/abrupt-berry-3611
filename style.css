@@ -13,12 +13,16 @@
     align-items: center;
     background-color: black;
     justify-content: space-between;
+    
 }
 #white-top{
     height:66px;
     display:flex;
     align-items: center;
     background-color: white;  
+    
+    
+    
 }
 #box-1{
     width: 500px;
@@ -348,11 +352,141 @@
     padding-bottom:10px;
 }
 #buttons{
-    border:1px solid black;
+
     width:100%;
     height:70px;
     margin-top:10px;
 }
+#buttons>button{
+    margin-top: 15px;
+    height:50px;
+    width:120px;
+    border-radius: 50px;
+    border:1px solid black;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 700;
+    font-size: smaller;
+    color:#212121;
+}
+#buttons-grid{
+    width:100%;
+    height: 800px;
+
+    margin-top:30px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px 10px;
+}
+#buttons-grid>img{
+    width: 570px;
+}
+#bigBrands{
+    width:100%;
+    height: 850px;
+    
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:5px 5px;
+}
+#bigBrands>img{
+    width:180px;
+    height:400px;
+}
+#brandsLove{
+    width:100%;
+    height: 850px;
+    
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:5px 5px;
+}
+#brandsLove>img{
+    width:180px;
+    height:400px;
+}
+#Value{
+    width:100%;
+    height: 850px;
+    
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:5px 5px;
+}
+#greyLine{
+    width:100%;
+    height:1px;
+    background-color: #EFEBE9;
+    margin-top:20px;
+}
+#subscribe{
+    width:100%;
+    height:250px;
+    border:1px solid red;
+    margin-top: 10px;;
+    display:flex;
+    justify-content: space-between;
+}
+#subscribe>div:nth-child(1){
+    width:48%;
+    height:100%;
+    
+    
+}
+#subscribe>div:nth-child(2){
+    width:48%;
+    height:100%;
+    
+}
+#subscribe>div:nth-child(1)>div{
+    margin-top: 40px;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ;
+}
+#subscribe>div:nth-child(1)>div:nth-child(1)>p{
+    color: #B0BEC5
+}
+#subscribe>div:nth-child(1)>div:nth-child(2){
+
+    width:480px;
+    height:60px;
+    display:flex;
+}
+#subscribe>div:nth-child(1)>div:nth-child(2)>input{
+    height:100%;
+    width:60%;
+    font-size: medium;
+    background-color:#EFEBE9;
+    color: #B0BEC5;
+    border:0px;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ;
+}
+#subscribe>div:nth-child(1)>div:nth-child(2)>div{
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ;
+    color:white;
+    height:100%;
+    background-color: black;
+    width:40%;
+    font-size: medium;
+}
+#subscribe>div:nth-child(1)>div:nth-child(2)>div>h4{
+    text-align: center;
+}
+#subscribe>div:nth-child(2)>div{
+    margin-top: 40px;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ;
+}
+#subscribe>div:nth-child(2)>div:nth-child(1)>p{
+    color: #B0BEC5
+}
+
+
+
 
 
 
