@@ -1,6 +1,6 @@
 # Lifestyle website clone
 
-Description:-hearbuy.com is a clone of a nearbuy.com which is India's first hyper-local online platform that enables customers and local merchants to discover and engage with each other.So, whether you want to dine at the finest restaurants, relax at the best spas, or just discover your city intimately, nearbuy makes it happen for you.
+Description:-Lifestyle is India's leading fashion destination for the latest trends. Lifestyle brings multiple categories including men, women and kids’ apparel, footwear, handbags, fashion accessories and beauty under the convenience of a single roof.
 
 Project Creator:-Madhura Tatte(fw22_0294)
 
