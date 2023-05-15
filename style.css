@@ -1,0 +1,550 @@
+#container{
+    height:100%;
+    display:block;
+    
+}
+#header{
+    height:108px;
+    display:block;
+}
+#black-top{
+    height:42px;
+    display:flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+#white-top{
+    height:66px;
+    display:flex;
+    align-items: center;
+    background-color: white;  
+
+
+
+    
+    
+}
+#box-1{
+    width: 500px;
+    
+    margin-left:10px;
+    height:35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#box-2{
+    width:350px;
+    
+    height:35px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:10px;
+}
+#freeShipping{
+    width:150px;
+    height:100%;
+    
+    display:block;
+}
+#collect{
+    width:150px;
+    height:100%;
+    
+}
+#return{
+    width:150px;
+    height:100%;
+    
+}
+.show{
+    width:150px;
+    height:100%;
+    display:flex;
+    
+}
+.show>div:nth-child(1){
+    width:30px;
+    height:20px;
+    margin: 8px 8px 8px 8px;
+    
+}
+.show1-text{
+    color:white;
+    margin-top:10px;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 400;
+    cursor: pointer;
+    font-size: smaller;
+}
+#box-2>div:nth-child(1){
+    color:white;
+    font-size: small;
+    width:110px;
+    height:10px;
+    
+}
+#box-2>div:nth-child(2){
+    width: 1px;
+    height:18px;
+    background-color: grey;
+
+}
+#box-2>div:nth-child(3){
+    color:white;
+    font-size: small;
+    width:80px;
+    height:10px;
+    
+}
+#box-2>:nth-child(4){
+    width: 1px;
+    height:18px;
+    background-color: grey;
+}
+#box-2>:nth-child(5){
+    color:white;
+    font-size: small;
+    width:30px;
+    height:10px;
+    
+}
+#white-top>div{
+    
+    width:99% ;
+    height:100%;
+    margin:auto;
+    display: flex;
+
+}
+#white-top>div>div:nth-child(1){
+   width:135px;
+   height:80%;
+
+   margin:5px;
+}
+#white-top>div>div:nth-child(1)>img{
+   width:135px;
+   height:100%;
+}
+#white-top>div>div:nth-child(2){
+    width:400px;
+    height:60%;
+    
+    margin:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#white-top>div>div:nth-child(3){
+    width:400px;
+    height:70%;
+    
+    margin:10px;
+    background-color: #E0E0E0;
+    display: flex;
+}
+#white-top>div>div:nth-child(4){
+    width:185px;
+    height:60%;
+    margin:10px;
+    display: flex;
+    margin-left:55px;
+    align-items: center;
+}
+#white-top>div>div:nth-child(5){
+    width:120px;
+    
+    height:60%;
+    margin:10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+#white-top>div>div:nth-child(2)>div{
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: smaller;
+    font-weight:600;
+    
+}
+#white-top>div>div:nth-child(3)>div{
+    margin-top:15px;
+    margin-left:10px;
+}
+#search{
+    background-color: #E0E0E0;
+    border:0px;
+    outline:0;
+    font-size:smaller;
+}
+#white-top>div>div:nth-child(4)>div:nth-child(1){
+     width:40px;
+    
+     height:20px;
+     font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: smaller;
+    font-weight:600;
+    margin-right:10px;
+    margin-top:7px;
+
+}
+#white-top>div>div:nth-child(4)>div:nth-child(2){
+    width:1px;
+    height:25px;
+    background-color: grey;
+    margin-right:10px;
+    
+}
+#white-top>div>div:nth-child(4)>div:nth-child(3){
+    width:110px;
+    height:20px;
+
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: smaller;
+    font-weight:600;
+    margin-top:7px;
+}
+#white-top>div>div:nth-child(5)>div:nth-child(1){
+    width:30px;
+    height:20px;
+    margin-left:30px;
+}
+#white-top>div>div:nth-child(5)>div:nth-child(2){
+    width:30px;
+    height:20px;
+    margin:20px;
+}
+#strip{
+    width:100%;
+    height:50px;
+
+    margin-top:5px;
+    background: repeating-linear-gradient(110deg,#faa619,#faa619 10px,#F89F17 10px,#F89F17 20px);
+    
+    padding-bottom: 15px;
+    display:flex;
+    color:white;
+    
+}
+#strip>h2{
+    margin-left:500px;
+
+}
+#strip>div{
+    height:16px;
+    
+    margin-top:25px;
+    margin-left:10px;
+}
+#slider{
+    width:100%;
+    height:440px;
+    
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#coupon{
+    margin-bottom:30px;
+    width:100%;
+}
+#benefit{
+    width:100%;
+    height: 64px;
+    
+    display:grid;
+
+}
+.font{
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 32px;
+    
+    margin-bottom:5px;
+}
+.line{
+    width:48px;
+    border-bottom: 4px solid #faa619;
+    background-color: #faa619;
+    
+}
+#images{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+#offers{
+    width:100%;
+    
+    height:450px;
+    margin-top:20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+#offers>img{
+    width:280px;
+}
+#shop{
+    width:100%;
+    margin-top:30px;
+    margin-bottom: 40px;
+}
+#trending{
+    width:100%;
+    height:800px;
+
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top:30px;
+}
+#trending>img{
+    width:280px;
+}
+#watches{
+    width:100%;
+    height: 200px;
+    margin-top: 20px;
+}
+#transparent{
+    width:100%;
+    height:250px;
+    background-color: transparent;
+}
+#big-box{
+    width:100%;
+    height:500px;
+    border:1px solid red;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-between;
+
+}
+#big-box>div:nth-child(1){
+    width:15%;
+    height:100%;
+    border:1px solid blue;
+    display:block;
+    background-color:#ECEFF1;
+
+    
+}
+#big-box>div:nth-child(2){
+    width:84%;
+    height:100%;
+    border:1px solid blue;
+}
+#big-box>div:nth-child(1)>div{
+    width:100%;
+    height:20px;
+    border:1px solid red;
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#buttons{
+
+    width:100%;
+    height:70px;
+    margin-top:10px;
+}
+#buttons>button{
+    margin-top: 15px;
+    height:50px;
+    width:120px;
+    border-radius: 50px;
+    border:1px solid black;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-weight: 700;
+    font-size: smaller;
+    color:#212121;
+}
+#buttons-grid{
+    width:100%;
+    height: 800px;
+
+    margin-top:30px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px 10px;
+}
+#buttons-grid>img{
+    width: 570px;
+}
+#bigBrands{
+    width:100%;
+    height: 850px;
+    
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:5px 5px;
+}
+#bigBrands>img{
+    width:180px;
+    height:400px;
+}
+#brandsLove{
+    width:100%;
+    height: 850px;
+    
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:5px 5px;
+}
+#brandsLove>img{
+    width:180px;
+    height:400px;
+}
+#Value{
+    width:100%;
+    height: 850px;
+    
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:5px 5px;
+}
+#greyLine{
+    width:100%;
+    height:1px;
+    background-color: #EFEBE9;
+    margin-top:20px;
+}
+#subscribe{
+    width:100%;
+    height:250px;
+    
+    margin-top: 10px;;
+    display:flex;
+    justify-content: space-between;
+}
+#subscribe>div:nth-child(1){
+    width:48%;
+    height:100%;
+    
+    
+}
+#subscribe>div:nth-child(2){
+    width:48%;
+    height:100%;
+    
+}
+#subscribe>div:nth-child(1)>div{
+    margin-top: 40px;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ;
+}
+#subscribe>div:nth-child(1)>div:nth-child(1)>p{
+    color: #B0BEC5
+}
+#subscribe>div:nth-child(1)>div:nth-child(2){
+
+    width:480px;
+    height:60px;
+    display:flex;
+}
+#subscribe>div:nth-child(1)>div:nth-child(2)>input{
+    height:100%;
+    width:60%;
+    font-size: medium;
+    background-color:#EFEBE9;
+    color: #B0BEC5;
+    border:0px;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ;
+}
+#subscribe>div:nth-child(1)>div:nth-child(2)>div{
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ;
+    color:white;
+    height:100%;
+    background-color: black;
+    width:40%;
+    font-size: medium;
+}
+#subscribe>div:nth-child(1)>div:nth-child(2)>div>h4{
+    text-align: center;
+}
+#subscribe>div:nth-child(2)>div{
+    margin-top: 40px;
+    font-family:ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" ;
+}
+#subscribe>div:nth-child(2)>div:nth-child(1)>p{
+    color: #B0BEC5
+}
+#subscribe>div:nth-child(2)>div:nth-child(2)>img{
+    height:100%;
+    width:350px;
+
+}
+#footerText{
+    
+    width:100%;
+    height:1200px;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap:10px 10px;
+
+}
+#footerText>div{
+    
+    font-family: ProximaNova-Regular,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    text-align: left;
+}
+#footerText>div>p{
+    color:#90A4AE;
+}
+#contact{
+    width:100%;
+
+    height:100px;
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+
+}
+#contact>div{
+    display:flex;
+    
+}
+#last{
+    width:100%;
+    height:100px;
+    
+    display:flex;
+}
+#last>img{
+    width:135px;
+   height:70%;
+   margin-top:10px;
+   margin-right:10px;
+}
+#last>div>p{
+    color:#90A4AE;
+}
+
+
+
+
+
+
+
+
