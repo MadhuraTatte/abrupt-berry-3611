@@ -14,13 +14,18 @@
     background-color: black;
     justify-content: space-between;
     
+    
+    
+    
 }
 #white-top{
     height:66px;
     display:flex;
     align-items: center;
     background-color: white;  
-    
+
+
+
     
     
 }

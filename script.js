@@ -17,6 +17,6 @@ setInterval(()=>{
     document.getElementById("slider").append(img);
     val++;
     if(val==arr.length) val=0;
-},10000);
+},5000);
 
 // top categories
