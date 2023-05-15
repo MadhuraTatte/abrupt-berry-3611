@@ -10,5 +10,5 @@ IA Manager:-Adarsh Khatua
 
 Tech Stack Used:-HTML CSS JAVASCRIPT
 
-deployed link:-https://soft-sorbet-f1873b.netlify.app/
+deployed link:-(https://rad-gnome-61ce3b.netlify.app/)
 
